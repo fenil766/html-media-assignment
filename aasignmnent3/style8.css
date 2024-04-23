@@ -1,0 +1,74 @@
+*{
+   
+    background-image: url("travelconceptwithlandmarks.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 8px;
+    padding: 8px;
+    font-family: 'Merienda', cursive;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    position: relative;
+    justify-content: space-between; 
+    align-items: center;
+}
+nav ul li:hover{
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: underline;
+}
+nav button{
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+button:hover{
+    color: red;
+    border-radius: 20px;
+   
+    background-color: #B0A4DA;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-large{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-right: 20%;
+    margin-left: 40%;
+}
+.button-large:hover{
+    color: red;
+    border-radius: 20px;
+    background-color: bisque; 
+}
